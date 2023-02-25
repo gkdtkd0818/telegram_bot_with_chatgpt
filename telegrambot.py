@@ -8,8 +8,8 @@ import telegram
 from telegram.ext import Updater
 from telegram.ext import CommandHandler, MessageHandler, Filters
 from chatgpt import chatGPT
-token = "6206198709:AAHC3iwOosPGjAHSuT1UGnoXUQQM9-hTVRo"
-chat_id = "6154621089"
+token = ""
+chat_id = ""
 bot = telegram.Bot(token)
 bot.sendMessage(chat_id=chat_id, text = "HelloWorld")
 
